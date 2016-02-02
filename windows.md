@@ -26,15 +26,16 @@ Win7/8/8.1 (and 10?)
     ```
     %userprofile%\.babun\cygwin\bin\mintty.exe /bin/env CHERE_INVOKING=1 /bin/zsh.exe
     ```
-    - Click Save settings in the bottom right
   - (Still inside cmder's Settings dialog) choose Startup in the left pane
     - Set Specified named task to: {babun}
-    - Click Save settings in the bottom right
   - (Still inside cmder's Settings dialog) choose Main -> Appearance in the left pane
     - Maximize cmder
     - Enable Quake style menu
-    - Click Save settings in the bottom right
-
+  - (Still inside cmder's Settings dialog) choose Main -> Size & Pos in the left pane
+    - Enable Show & store current window size and position
+    - Enable Auto save window size and position on exit
+    - Set Window size to Normal, Width to 100%, and Height to 85%
+  - Click Save settings in the bottom right
 
 
 
