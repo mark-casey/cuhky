@@ -14,7 +14,7 @@ Win7/8/8.1 (and 10?)
   ```
 4. Add babun to cmder
   - Open cmder
-  - Open cmder settings dialog and go to Startup -> Tasks
+  - Open cmder Settings dialog and in the left pane browse to Startup -> Tasks
   - Click the '+' icon to create a new task
     - Rename the added task: 'babun'
     - Use the 'Up' button to move the new task to the top of the list
@@ -26,5 +26,16 @@ Win7/8/8.1 (and 10?)
     ```
     %userprofile%\.babun\cygwin\bin\mintty.exe /bin/env CHERE_INVOKING=1 /bin/zsh.exe
     ```
+    - Click Save settings in the bottom right
+  - (Still inside cmder's Settings dialog) choose Startup in the left pane
+    - Set Specified named task to: {babun}
+    - Click Save settings in the bottom right
+  - (Still inside cmder's Settings dialog) choose Main -> Appearance in the left pane
+    - Maximize cmder
+    - Enable Quake style menu
+    - Click Save settings in the bottom right
+
+
+
 
 ## Removal
