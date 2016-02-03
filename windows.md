@@ -35,7 +35,9 @@ Win7/8/8.1 (and 10?)
     ```
     - Set the command(s) to:  
     ```
-    %userprofile%\.babun\cygwin\bin\mintty.exe /bin/env CHERE_INVOKING=1 /bin/zsh.exe
+    >%userprofile%\.babun\cygwin\bin\mintty.exe -
+    
+    cmd /k "%ConEmuDir%\..\init.bat"  -new_console:d:%USERPROFILE%
     ```
   - (Still inside cmder's Settings dialog) choose Startup in the left pane
     - Set Specified named task to: {babun}
