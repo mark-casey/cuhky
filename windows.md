@@ -55,6 +55,7 @@ All examples in this doc assume the user created for the ficticious "John Dev" w
     - Set Specified named task to: {babun_and_cmder}
   - (Still inside cmder's Settings dialog) choose Main -> Appearance in the left pane
     - Enable Quake style menu
+    - Enable Auto-hide on focus lose
   - (Still inside cmder's Settings dialog) choose Main -> Size & Pos in the left pane
     - Enable Show & store current window size and position
     - Enable Auto save window size and position on exit
