@@ -26,6 +26,4 @@ Workstations built completely under cuhky:
 
 
 
-miscellanenous:
-  * (this is a horribly rough example about the types of places we can get into trouble and some ideas on mitigating them)
-    * Mixing non-stock technologies (such as adding a POSIX layer on Windows) breeds complexity. It is useful to watch for convenient barriers or mediators, such as (continuing with the POSIX/Windows example) the host OS filesystem. The dev's IDE running natively on the host OS may internally use a git library for Windows and ***FIXME "POSIX git" may run inside POSIX shells via Cygwin, Babun, or etc., but if the IDE has a console feature you may not want to run the POSIX shell through its emulation inside a native app that is using git natively while the git running in the emulated shell that is running in the native IDE is using it in a POSIX way.    ...it's not that hard to alt-tab to type shell commands.
+
