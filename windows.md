@@ -4,7 +4,9 @@
 
 Win7/8/8.1 (and 10?)
 
-1. Set an env variable for babun to set home directory to Windows profile dir
+1. Clean up Windows profile directory (%USERPROFILE%) as much as possible, but be very careful. Try to use modified times on files (but probably not trusting those on folders) to tell how outdated stuff is. At the very least make a folder on your Desktop and move things from %USERPROFILE% there instead of outright deleting.
+2. Use the registry to move some of Windows' more useless profile folders (perhaps Contacts, Videos, etc.) to another location.
+1. Set a Windows env variable for your user to tell babun's installer to set shell's (i.e.: bash/zsh) home directory to your Windows profile directory instead of "%userprofile%\.babun\cygwin\home\username"
   - Right click on Computer on the Desktop or in Start Menu and choose Properties
   - Choose Advanced system settings
   - At the top choose the Advanced tab
