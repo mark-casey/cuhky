@@ -4,6 +4,14 @@
 
 Win7/8/8.1 (and 10?)
 
+### On Windows usernames
+
+Windows users should be created without spaces in the name so that the user's profile directory (%USERPROFILE%) does not have spaces in the path, which from time to time will cause annoying but not insurmountable issues in "Linuxy" and "POSIXy" that has been added to Windows.
+
+Renaming the Windows user to a proper Firstname Lastname after the fact is easy, but renaming the user's profile directory is hard (requires registry edits at the same time as the directory rename and must be done from another admin account when the user is logged off).
+
+All examples in this doc assume the user created for the ficticious "John Dev" was originally johndev (and to a lesser extent, this doc will attempt to represent that the username was then changed to "John Dev").
+
 1. Clean up Windows profile directory (%USERPROFILE%) as much as possible, but be very careful. Try to use modified times on files (but probably not trusting those on folders) to tell how outdated stuff is. At the very least make a folder on your Desktop and move things from %USERPROFILE% there instead of outright deleting.
 2. Use the registry to move some of Windows' more useless profile folders (perhaps Contacts, Videos, etc.) to another location.
 1. Set a Windows env variable for your user to tell babun's installer to set shell's (i.e.: bash/zsh) home directory to your Windows profile directory instead of "%userprofile%\.babun\cygwin\home\username"
