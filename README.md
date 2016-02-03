@@ -10,10 +10,10 @@ Much work is done on allowing developers to evaluate or work on multiple project
 Less work has been done to automate and simplify the physical workstations these tools run on, and less-still to make workstation features more consistient across host operating systems.
 
 Workstations built completely under cuhky:
-  * (If deciding to reinstall) Virtualize the user's previous host OS to ease transitioning
+  * (If deciding to reinstall) Include considerations to virtualize the user's previous host OS to ease transitioning
   * Encourage the ability to reinstall the host OS without fear by:
     * Moving user data off of host-OS system partitions to facilitate reinstalling the physical OS
-      (NOTE_HERE: That Windows can do this but you have to do it at install time for it to really work well)
+      (Windows can do this too but you have to do it at install time for it to really work well)
     * Utilizing portable applications where possible
   * Include the following tools with recommended configurations:
     * POSIX shells such as Bash
