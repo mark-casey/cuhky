@@ -54,9 +54,9 @@ All examples in this doc assume the user created for the ficticious "John Dev" w
   - (Still inside cmder's Settings dialog) choose Main -> Appearance in the left pane
     - Enable Quake style menu
   - (Still inside cmder's Settings dialog) choose Main -> Size & Pos in the left pane
-    - Enable Show & Store current window size and position
-    - Window size:
-      - Normal; Width: 100%; Height: 85%
+    - Enable Show & store current window size and position
+    - Enable Auto save window size and position on exit
+    - Set Window size to Normal, Width to 100%, and Height to 85%
   - (Still inside cmder's Settings dialog) choose Keys & Macro
     - Set 'Switch focus between ConEmu and child GUI application' to: Win+Z
     - Set 'Switch next console': Win+Q
