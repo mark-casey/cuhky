@@ -1,5 +1,5 @@
 # cuhky
-(cookie)
+(cookie cutter setup of physical dev machines)
 
 A spec and set of scripts for normalizing capabilities of web development physical workstations across operating systems.
 
