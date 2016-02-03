@@ -6,7 +6,7 @@ Win7/8/8.1 (and 10?)
 
 Windows users should be created without spaces in the name so that the user's profile directory (%USERPROFILE%) does not have spaces in the path, which from time to time will cause annoying but not insurmountable issues in software like Cygwin (https://cygwin.com/faq.html#faq.setup.name-with-space).
 
-Renaming the Windows username to a proper Firstname Lastname after the fact is easy and will not affect the path to the originally-create profile directory; renaming the user's profile directory is hard (requires registry edits at the same time as the directory rename and must be done from another admin account when the user is logged off).
+Renaming the Windows username to a proper Firstname Lastname after the fact is easy and will not affect the path to the originally-created profile directory; renaming the user's profile directory is hard (requires registry edits at the same time as the directory rename and must be done from another admin account when the user is logged off).
 
 All examples in this doc assume the user created for the ficticious "John Dev" was originally johndev (and to a lesser extent, this doc will attempt to represent that the username was then changed to "John Dev").
 
