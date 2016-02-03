@@ -52,9 +52,11 @@ All examples in this doc assume the user created for the ficticious "John Dev" w
   - (Still inside cmder's Settings dialog) choose Startup in the left pane
     - Set Specified named task to: {babun_and_cmder}
   - (Still inside cmder's Settings dialog) choose Main -> Appearance in the left pane
-    - Maximize cmder
     - Enable Quake style menu
   - (Still inside cmder's Settings dialog) choose Main -> Size & Pos in the left pane
+    - Enable Show & Store current window size and position
+    - Window size:
+      - Normal; Width: 100%; Height: 85%
   - (Still inside cmder's Settings dialog) choose Keys & Macro
     - Set 'Switch focus between ConEmu and child GUI application' to: Win+Z
     - Set 'Switch next console': Win+Q
