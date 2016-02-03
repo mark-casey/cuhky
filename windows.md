@@ -37,7 +37,7 @@ All examples in this doc assume the user created for the ficticious "John Dev" w
   - Open cmder
   - Open cmder Settings dialog and in the left pane browse to Startup -> Tasks
   - Click the '+' icon to create a new task
-    - Rename the added task: 'babun'
+    - Rename the added task: 'babun_and_cmder'
     - Use the 'Up' button to move the new task to the top of the list
     - Set the task's Task Parameters to:  
     ```
@@ -50,7 +50,7 @@ All examples in this doc assume the user created for the ficticious "John Dev" w
     cmd /k "%ConEmuDir%\..\init.bat"  -new_console:d:%USERPROFILE%
     ```
   - (Still inside cmder's Settings dialog) choose Startup in the left pane
-    - Set Specified named task to: {babun}
+    - Set Specified named task to: {babun_and_cmder}
   - (Still inside cmder's Settings dialog) choose Main -> Appearance in the left pane
     - Maximize cmder
     - Enable Quake style menu
