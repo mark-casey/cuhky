@@ -1,0 +1,4 @@
+# Linux
+
+Install Linux
+yay
