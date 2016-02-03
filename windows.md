@@ -4,6 +4,16 @@
 
 Win7/8/8.1 (and 10?)
 
+1. Set an env variable for babun to set home directory to Windows profile dir
+  - Right click on Computer on the Desktop or in Start Menu and choose Properties
+  - Choose Advanced system settings
+  - At the top choose the Advanced tab
+  - Click Environment Variables
+  - User "Variables for $youruser"
+    - Click New
+    - Variable name: 'HOME'
+    - Variable value: '%USERPROFILE%'
+  - OK/Close all the way out
 1. Install chocolatey package manager for Windows
   - Visit https://chocolatey.org/
   - It will give instructions to open an Administrative cmd prompt (find cmd, right click, Run as Administrator) and paste a download/install command into the terminal to run
@@ -11,7 +21,8 @@ Win7/8/8.1 (and 10?)
 3. Run these in the terminal:  
   ```
   choco install -y cmdermini babun
-  ```
+  ```  
+  *babun will prompt about having HOME set; tell it yes  
 4. Add babun to cmder
   - Open cmder
   - Open cmder Settings dialog and in the left pane browse to Startup -> Tasks
@@ -32,9 +43,12 @@ Win7/8/8.1 (and 10?)
     - Maximize cmder
     - Enable Quake style menu
   - (Still inside cmder's Settings dialog) choose Main -> Size & Pos in the left pane
-    - Enable Show & store current window size and position
-    - Enable Auto save window size and position on exit
-    - Set Window size to Normal, Width to 100%, and Height to 85%
+  - (Still inside cmder's Settings dialog) choose Keys & Macro
+    - Set 'Switch focus between ConEmu and child GUI application' to: Win+Z
+    - Set 'Switch next console': Win+Q
+    - Set 'Switch previous console': Win+Shift+Q
+  - (Still inside cmder's Settings dialog) choose Keys & Macro -> Controls
+    - Enable Install keyboard hooks
   - Click Save settings in the bottom right
 
 
