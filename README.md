@@ -24,7 +24,7 @@ Workstations built completely under cuhky:
     * A packaging system such as apt-get or yum on Linux, homebrew on OSX, and chocolatey on Windows
     * A default cross platform IDE or two that can use more than one VCS system (perhaps Eclipse and Atom and something for Go?)
 
-Usernames no spaces
+
 
 miscellanenous:
   * (this is a horribly rough example about the types of places we can get into trouble and some ideas on mitigating them)
