@@ -13,16 +13,9 @@ All examples in this doc assume the user created for the ficticious "John Dev" w
 ### Setup (assumes not reinstalling OS will need to update later to cover both if you are or if you aren't)
 
 1. Clean up Windows profile directory (%USERPROFILE%) as much as possible, but be very careful. Try to use modified times on files (but probably not trusting those on folders) to tell how outdated stuff is. At the very least make a folder on your Desktop and move things from %USERPROFILE% there instead of outright deleting.
-2. For some of Windows' more useless profile folders (perhaps Contacts, Videos, etc.) you can move them to another location:
-  - From a cmd prompt (that was **not** Run as administrator) here is an example set of folders you might desire to move:
-   ```
-   cd %USERPROFILE%
-   mkdir profiledirs\Contacts profiledirs\Favorites profiledirs\Links "profiledirs\Saved Games" profiledirs\Videos
-   ```
-  - In the user's profile directory right click on each of the original profile folders to be relocated and open Properties, then go to the Location tab.
-  - Set the new location of each folder to its match in %USERPROFILE%\profiledirs (generally - ignoring distinction between Videos/My Videos and etc. as this is a user-friendly mirage).
-    - **This dialog does not select where the relocated folder will go, it selects the new path to the relocated folder itself. The folder you select as the destination is essentially going to be possessed, and this is why each folder is re-created under the profiledirs directory.**
-    - **When prompted say Yes to moving folder contents**
+2. For some of Windows' more useless profile folders (perhaps Contacts, Videos, etc.) you can move them to another location. In older versions of Windows this was much harder and sometimes required registry edits. In Win7 and beyond you can simply create a directory in your user profile directory called (something like) 'winprofiledirs' and then cut and paste desired profile directories to their new location. Windows detects a special folder is moving and updates internal settings (visible by looking at the Location tab of the Properties window of such a folder after it has been moved).
+  - **Some corporate environments may have already directed these folders to another location, to a roaming profile, or may be preventing this option via Group Policy.**
+  - **Some (really) poorly written software may hardcode these paths so only move directories that will not cause major harm if something cannot find them (i.e.: move Videos and Contacts, maybe Links and Favorites, but probably not Documents)**
 1. Set a Windows env variable for your user to tell babun's installer to set shell's (i.e.: bash/zsh) home directory to your Windows profile directory instead of "%userprofile%\.babun\cygwin\home\username"
   - Right click on Computer on the Desktop or in Start Menu and choose Properties
   - Choose Advanced system settings
