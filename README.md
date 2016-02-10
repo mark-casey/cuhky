@@ -1,5 +1,4 @@
-# cuhky
-(cookie-cutter setup of physical dev machines)
+## cuhky - Cookie-cutter setup of physical dev machines
 
 A documentation project and sets of resources for normalizing capabilities of web development physical workstations across operating systems.
 
